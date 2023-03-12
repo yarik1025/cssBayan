@@ -1,0 +1,36 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    line-height: 2%;
+    color: white;
+    background-color: black;
+}
+
+.click_in {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.click_in:checked + .mem {
+    display: block;
+}
+.title {
+    width: 500px;
+margin: 20 auto;
+border: 1px solid red;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    padding: 10px 15px;
+
+}
+.click_in:hover{
+display: block;
+}
+.mem {
+    display: none;
+    width: 70%;    
+    height: auto;
+}
