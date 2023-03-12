@@ -19,6 +19,10 @@ body {
   justify-content: center;
   position: relative;
 }
+.accordeon:hover {
+  width: 100%;
+  display: block;
+}
 .click_in {
   -webkit-appearance: none;
   appearance: none;
@@ -48,10 +52,6 @@ label:after {
   border-style: solid;
   border-width: 1.35em 1em 0 1em;
   border-color: #ffffff transparent transparent transparent;
-}
-.click_in:checked,
-label:after {
-  border-color: #000000 transparent transparent transparent;
 }
 .mem {
   display: none;
