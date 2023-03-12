@@ -21,7 +21,6 @@ body {
 }
 .accordeon:hover {
   width: 100%;
-  display: block;
 }
 .click_in {
   -webkit-appearance: none;
